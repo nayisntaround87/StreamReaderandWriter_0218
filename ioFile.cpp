@@ -26,4 +26,12 @@ int main()
         outfile << baris << endl;
     }
     // selesai dalam menulis skrg tutup filenya
+    outfile.close();
+
+    //membuka file dalam mode membaca
+    ifstream infile;
+    //menunjuk ke sebuah file
+    infile.open("contohfile.txt");
+
+    cout << endl << ">= membuka dan membaca file"
 }
